@@ -1,7 +1,11 @@
 {
   "extends": ["./node_modules/standard/eslintrc.json", "next/core-web-vitals"],
   "rules": {
-    "space-before-function-paren": ["error", "never"]
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "named": "always",
+      "asyncArrow": "always"
+  }]
   }
   
 }

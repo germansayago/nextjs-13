@@ -7,7 +7,7 @@ const fetchSinglePost = (id) => {
     }
   }).then((res) => res.json())
 }
-
+/* eslint-disable-next-line  */
 export default async function PostPage({ children, params }) {
   const { id } = params
   const post = await fetchSinglePost(id)

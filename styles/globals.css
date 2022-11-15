@@ -12,6 +12,10 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  font-family: var(--font-grotesk), serif;
+}
+
 a {
   color: inherit;
   text-decoration: none;

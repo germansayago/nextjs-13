@@ -1,14 +1,16 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@next/font': ^13.0.3
   eslint: 8.26.0
   eslint-config-next: 13.0.1
   next: 13.0.1
   react: 18.2.0
   react-dom: 18.2.0
-  standard: ^17.0.0
+  standard: 17.0.0
 
 dependencies:
+  '@next/font': 13.0.3
   eslint: 8.26.0
   eslint-config-next: 13.0.1_eslint@8.26.0
   next: 13.0.1_biqbaboplfbrettd7655fr4n2y
@@ -76,6 +78,10 @@ packages:
     resolution: {integrity: sha512-t3bggJhKE/oB4pvMM7hMNnmIpIqsMGJ+OLklk8llOkSeXtfCV+MBQbhImWxf5QODkxNAmMK3IJGAAecQhBTc/Q==}
     dependencies:
       glob: 7.1.7
+    dev: false
+
+  /@next/font/13.0.3:
+    resolution: {integrity: sha512-J3bZooNyhzhRshEJZlc4Kagfx6f8LQkPdCsP0nZm63dAUaoeMaQRidFFhbL68WZ3S5XleVfpGYypZuBSyJqYtw==}
     dev: false
 
   /@next/swc-android-arm-eabi/13.0.1:
